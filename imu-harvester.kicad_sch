@@ -1561,6 +1561,15 @@
   (junction (at 40.64 182.245) (diameter 0) (color 0 0 0 0)
     (uuid 35f2e870-3288-4792-aded-3cbe9b04334c)
   )
+  (junction (at 40.64 76.835) (diameter 0) (color 0 0 0 0)
+    (uuid 37c85f04-0e72-4873-951a-130291ddcdda)
+  )
+  (junction (at 100.965 69.85) (diameter 0) (color 0 0 0 0)
+    (uuid 3d0200be-2df3-4ed8-b2bd-254afd88d198)
+  )
+  (junction (at 104.14 94.615) (diameter 0) (color 0 0 0 0)
+    (uuid 42a740ce-9c6e-41f5-a384-f3cbfb3dbb40)
+  )
   (junction (at 90.805 106.045) (diameter 0) (color 0 0 0 0)
     (uuid 438e50c1-6a4f-45d5-b517-85728a979193)
   )
@@ -1585,7 +1594,7 @@
   (junction (at 249.555 99.06) (diameter 0) (color 0 0 0 0)
     (uuid a8af28a3-20b4-473d-87d4-816244c9cfd9)
   )
-  (junction (at 167.005 92.075) (diameter 0) (color 0 0 0 0)
+  (junction (at 161.29 91.44) (diameter 0) (color 0 0 0 0)
     (uuid b86b138f-0fe4-429c-ae93-b0b4af36f0dd)
   )
   (junction (at 239.395 26.035) (diameter 0) (color 0 0 0 0)
@@ -1602,6 +1611,9 @@
   )
   (junction (at 51.435 97.155) (diameter 0) (color 0 0 0 0)
     (uuid da10859f-f4a8-4856-ab17-a0fbcd370bc6)
+  )
+  (junction (at 40.64 97.155) (diameter 0) (color 0 0 0 0)
+    (uuid e4294190-5b16-49a1-82c4-b48fe42958a6)
   )
   (junction (at 31.115 174.625) (diameter 0) (color 0 0 0 0)
     (uuid e5ee0a41-0b1e-49cc-87f2-0b776e4b4d33)
@@ -1627,22 +1639,22 @@
 
   (no_connect (at 136.525 47.625) (uuid 0431748d-73c1-4153-9e85-a01de38439dc))
   (no_connect (at 214.63 23.495) (uuid 103dd438-15ed-40d2-95fd-f52266883fcf))
-  (no_connect (at 144.145 133.35) (uuid 17d1fd60-cbc2-4337-beef-d48bfc668a06))
+  (no_connect (at 138.43 132.715) (uuid 17d1fd60-cbc2-4337-beef-d48bfc668a06))
   (no_connect (at 30.48 40.005) (uuid 24ea0273-0389-4fdb-8a0e-89e9bedc582a))
   (no_connect (at 277.495 26.035) (uuid 32cdbfdb-d829-4a9b-a776-2a711de25966))
-  (no_connect (at 154.305 95.25) (uuid 4dbf6d20-6a94-4d82-8c1b-0cbde211f87e))
-  (no_connect (at 189.865 128.27) (uuid 55f67a24-54a2-425b-9db8-199083ebc6c1))
-  (no_connect (at 189.865 125.73) (uuid 61847661-6a9b-47dd-a209-ab527c8e3295))
+  (no_connect (at 148.59 94.615) (uuid 4dbf6d20-6a94-4d82-8c1b-0cbde211f87e))
+  (no_connect (at 184.15 127.635) (uuid 55f67a24-54a2-425b-9db8-199083ebc6c1))
+  (no_connect (at 184.15 125.095) (uuid 61847661-6a9b-47dd-a209-ab527c8e3295))
   (no_connect (at 277.495 23.495) (uuid 76f302fa-3c92-4519-9978-515d8d068444))
   (no_connect (at 214.63 26.035) (uuid 7f0e8734-9d97-425e-a488-e18e5c7eb3ad))
-  (no_connect (at 189.865 138.43) (uuid 85f24f8e-3c8d-40c0-9beb-8705c73a0a82))
-  (no_connect (at 189.865 135.89) (uuid ac5dddef-2265-44f4-ab65-a00ae0622e69))
+  (no_connect (at 184.15 137.795) (uuid 85f24f8e-3c8d-40c0-9beb-8705c73a0a82))
+  (no_connect (at 184.15 135.255) (uuid ac5dddef-2265-44f4-ab65-a00ae0622e69))
   (no_connect (at 151.765 24.765) (uuid bd02f023-15a6-4545-98d9-12bb73f640cb))
   (no_connect (at 30.48 37.465) (uuid bdcc5926-8e99-40a1-a533-ed7d55f8ea47))
   (no_connect (at 30.48 34.925) (uuid caf9ca8f-84a4-48a4-bf67-959679886497))
-  (no_connect (at 189.865 133.35) (uuid ccaa848d-47f0-4391-9fc8-d65abd0bac88))
+  (no_connect (at 184.15 132.715) (uuid ccaa848d-47f0-4391-9fc8-d65abd0bac88))
   (no_connect (at 30.48 42.545) (uuid d6478852-cd5b-41d3-827d-a22485834e41))
-  (no_connect (at 189.865 130.81) (uuid e5ce430e-fc50-4c49-b177-ccea1f4dea60))
+  (no_connect (at 184.15 130.175) (uuid e5ce430e-fc50-4c49-b177-ccea1f4dea60))
 
   (wire (pts (xy 237.49 33.655) (xy 239.395 33.655))
     (stroke (width 0) (type default))
@@ -1664,7 +1676,7 @@
     (stroke (width 0) (type default))
     (uuid 05cc9ba5-97e3-499f-90a5-20928ee89543)
   )
-  (wire (pts (xy 189.865 105.41) (xy 203.2 105.41))
+  (wire (pts (xy 184.15 104.775) (xy 197.485 104.775))
     (stroke (width 0) (type default))
     (uuid 0824c6cb-4a3f-460f-9937-4b1acb4cc17e)
   )
@@ -1684,7 +1696,7 @@
     (stroke (width 0) (type default))
     (uuid 12cdf102-7da4-40c2-b69f-8446e8a1cec9)
   )
-  (wire (pts (xy 189.865 118.11) (xy 199.39 118.11))
+  (wire (pts (xy 184.15 117.475) (xy 193.675 117.475))
     (stroke (width 0) (type default))
     (uuid 130ed08a-0fd1-4a71-8e13-2b6351262344)
   )
@@ -1708,7 +1720,7 @@
     (stroke (width 0) (type default))
     (uuid 1aa0bb8a-4a9a-4898-b0a8-95954b1712c5)
   )
-  (wire (pts (xy 189.865 100.33) (xy 194.945 100.33))
+  (wire (pts (xy 184.15 99.695) (xy 189.23 99.695))
     (stroke (width 0) (type default))
     (uuid 1b70957c-a0fb-4c86-a8d3-e5b74200d3c7)
   )
@@ -1772,7 +1784,7 @@
     (stroke (width 0) (type default))
     (uuid 277bd3e0-d66d-4c0c-8a60-e1bc1dc3d30d)
   )
-  (wire (pts (xy 139.065 125.73) (xy 144.145 125.73))
+  (wire (pts (xy 133.35 125.095) (xy 138.43 125.095))
     (stroke (width 0) (type default))
     (uuid 29366c20-30d0-422f-bde2-9069ea240905)
   )
@@ -1788,7 +1800,7 @@
     (stroke (width 0) (type default))
     (uuid 2b56abac-c6eb-49d5-9d80-4e87c143f15a)
   )
-  (wire (pts (xy 189.865 120.65) (xy 199.39 120.65))
+  (wire (pts (xy 184.15 120.015) (xy 193.675 120.015))
     (stroke (width 0) (type default))
     (uuid 2bb9ba86-d6cd-49b8-aa1c-ff2fe6e1abca)
   )
@@ -1849,7 +1861,7 @@
     (stroke (width 0) (type default))
     (uuid 4012bd82-d3da-4a40-9044-f943234e7d7d)
   )
-  (wire (pts (xy 189.865 123.19) (xy 199.39 123.19))
+  (wire (pts (xy 184.15 122.555) (xy 193.675 122.555))
     (stroke (width 0) (type default))
     (uuid 408fba2f-4d08-42ab-8d26-004a431e8a0d)
   )
@@ -1905,11 +1917,11 @@
     (stroke (width 0) (type default))
     (uuid 4f4340a2-a415-4119-8edc-b30f9534f811)
   )
-  (wire (pts (xy 167.005 92.075) (xy 167.005 95.25))
+  (wire (pts (xy 161.29 91.44) (xy 161.29 94.615))
     (stroke (width 0) (type default))
     (uuid 4f56d7bd-2724-43c8-afa6-40d23395d4d3)
   )
-  (wire (pts (xy 189.865 113.03) (xy 199.39 113.03))
+  (wire (pts (xy 184.15 112.395) (xy 193.675 112.395))
     (stroke (width 0) (type default))
     (uuid 5002b4a6-d411-40d6-817f-f67400e6940f)
   )
@@ -1921,7 +1933,7 @@
     (stroke (width 0) (type default))
     (uuid 52bb1e73-a2b6-478a-a72b-b08d9fb03599)
   )
-  (wire (pts (xy 139.065 115.57) (xy 144.145 115.57))
+  (wire (pts (xy 133.35 114.935) (xy 138.43 114.935))
     (stroke (width 0) (type default))
     (uuid 54e93214-ef75-4f56-9a51-ba1aa2ff25d1)
   )
@@ -1957,7 +1969,7 @@
     (stroke (width 0) (type default))
     (uuid 60c7ad1a-0b1c-460c-85a1-83a05c1bff2d)
   )
-  (wire (pts (xy 174.625 95.25) (xy 174.625 90.17))
+  (wire (pts (xy 168.91 94.615) (xy 168.91 89.535))
     (stroke (width 0) (type default))
     (uuid 610ec489-2b26-4906-873c-6f64d6c593cd)
   )
@@ -1969,11 +1981,11 @@
     (stroke (width 0) (type default))
     (uuid 645f75ad-83ae-42b6-a8fa-728bf253042e)
   )
-  (wire (pts (xy 169.545 95.25) (xy 169.545 92.075))
+  (wire (pts (xy 163.83 94.615) (xy 163.83 91.44))
     (stroke (width 0) (type default))
     (uuid 650f95f4-93f1-42d9-8dc9-9d22fdcc4a28)
   )
-  (wire (pts (xy 151.765 95.25) (xy 151.765 90.17))
+  (wire (pts (xy 146.05 94.615) (xy 146.05 89.535))
     (stroke (width 0) (type default))
     (uuid 66fd8ff9-31ce-4dcb-b732-2c5c297bc102)
   )
@@ -2025,7 +2037,7 @@
     (stroke (width 0) (type default))
     (uuid 78463826-1c50-4dd2-898b-0466a04c0807)
   )
-  (wire (pts (xy 189.865 115.57) (xy 199.39 115.57))
+  (wire (pts (xy 184.15 114.935) (xy 193.675 114.935))
     (stroke (width 0) (type default))
     (uuid 7ae43d91-8ae4-4bee-ad21-f4395f46f6d8)
   )
@@ -2038,7 +2050,7 @@
     (uuid 7c438415-e5f7-4c5d-b860-d22f6c055671)
   )
 
-  (wire (pts (xy 133.985 135.89) (xy 144.145 135.89))
+  (wire (pts (xy 128.27 135.255) (xy 138.43 135.255))
     (stroke (width 0) (type default))
     (uuid 7c7fbd10-125b-4afb-9d07-25fda1ffd0fd)
   )
@@ -2086,7 +2098,7 @@
     (stroke (width 0) (type default))
     (uuid 89d979fc-40d5-4807-97cc-5c78ab4d5dd1)
   )
-  (wire (pts (xy 189.865 102.87) (xy 194.945 102.87))
+  (wire (pts (xy 184.15 102.235) (xy 189.23 102.235))
     (stroke (width 0) (type default))
     (uuid 8b08479d-8fca-4afc-b063-1e97e24668b0)
   )
@@ -2159,7 +2171,7 @@
     (stroke (width 0) (type default))
     (uuid a38da36c-ce56-4c12-864a-58073f249427)
   )
-  (wire (pts (xy 133.985 138.43) (xy 144.145 138.43))
+  (wire (pts (xy 128.27 137.795) (xy 138.43 137.795))
     (stroke (width 0) (type default))
     (uuid a5a9953f-7a80-4df5-87f9-6bf91183e3df)
   )
@@ -2224,7 +2236,7 @@
     (stroke (width 0) (type default))
     (uuid beb73210-7e1e-4ed8-9455-457a4e3db18e)
   )
-  (wire (pts (xy 164.465 95.25) (xy 164.465 92.075))
+  (wire (pts (xy 158.75 94.615) (xy 158.75 91.44))
     (stroke (width 0) (type default))
     (uuid c24cc01a-3342-44fb-b384-4e4c6931c43d)
   )
@@ -2244,7 +2256,7 @@
     (stroke (width 0) (type default))
     (uuid c3584691-7ed0-41cd-8f05-f43a950e0cf2)
   )
-  (wire (pts (xy 164.465 92.075) (xy 167.005 92.075))
+  (wire (pts (xy 158.75 91.44) (xy 161.29 91.44))
     (stroke (width 0) (type default))
     (uuid c614cb6d-d237-4e6b-a33d-3beddf305846)
   )
@@ -2288,7 +2300,7 @@
     (stroke (width 0) (type default))
     (uuid da3062ec-bb3d-4a33-afb2-6cb17b7cee3a)
   )
-  (wire (pts (xy 189.865 107.95) (xy 203.2 107.95))
+  (wire (pts (xy 184.15 107.315) (xy 197.485 107.315))
     (stroke (width 0) (type default))
     (uuid da372cae-29c9-46ca-a86f-b7022ff5bc4d)
   )
@@ -2328,7 +2340,7 @@
     (stroke (width 0) (type default))
     (uuid e25ea357-cd0a-4374-b8a8-43ab283e142b)
   )
-  (wire (pts (xy 169.545 92.075) (xy 167.005 92.075))
+  (wire (pts (xy 163.83 91.44) (xy 161.29 91.44))
     (stroke (width 0) (type default))
     (uuid e2bf21c7-676e-4a5f-9501-b72fc85326bd)
   )
@@ -2361,7 +2373,7 @@
     (stroke (width 0) (type default))
     (uuid e617fcfd-1d12-4a83-ba6e-185b2d21cf77)
   )
-  (wire (pts (xy 159.385 95.25) (xy 159.385 90.17))
+  (wire (pts (xy 153.67 94.615) (xy 153.67 89.535))
     (stroke (width 0) (type default))
     (uuid e7b16833-e45b-46f8-9c36-62df2aa72376)
   )
@@ -2369,7 +2381,7 @@
     (stroke (width 0) (type default))
     (uuid e94f3218-d305-40c5-9303-aba5e13c61e8)
   )
-  (wire (pts (xy 156.845 95.25) (xy 156.845 90.17))
+  (wire (pts (xy 151.13 94.615) (xy 151.13 89.535))
     (stroke (width 0) (type default))
     (uuid e95b7ae5-4093-4953-8ed0-fb0d9cc92ef0)
   )
@@ -2381,7 +2393,7 @@
     (stroke (width 0) (type default))
     (uuid f216d968-25ea-4d5e-8ae2-098b95f8c9ca)
   )
-  (wire (pts (xy 139.065 105.41) (xy 144.145 105.41))
+  (wire (pts (xy 133.35 104.775) (xy 138.43 104.775))
     (stroke (width 0) (type default))
     (uuid f2e345c0-ba36-4659-9c73-421f8152b361)
   )
@@ -2417,7 +2429,7 @@
     (stroke (width 0) (type default))
     (uuid fe15c234-6b2f-42a1-8d43-50519d50d7dc)
   )
-  (wire (pts (xy 189.865 110.49) (xy 199.39 110.49))
+  (wire (pts (xy 184.15 109.855) (xy 193.675 109.855))
     (stroke (width 0) (type default))
     (uuid febe4138-2c8b-4e0e-9661-9f070185f985)
   )
@@ -2541,7 +2553,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12f75edc-0d1a-449b-923a-4d5d004501b5)
   )
-  (label "XC2" (at 139.065 125.73 0) (fields_autoplaced)
+  (label "XC2" (at 133.35 125.095 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 19e72948-fbd9-4d7a-b0b1-3105d6c1c16b)
   )
@@ -2553,7 +2565,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1ff88117-eee3-4f36-8072-fe13d104444e)
   )
-  (label "IMU_SCK" (at 199.39 113.03 180) (fields_autoplaced)
+  (label "IMU_SCK" (at 193.675 112.395 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 20535fd2-44db-4889-8833-2650a7acf99d)
   )
@@ -2561,7 +2573,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 21656ea7-6381-4fd0-b1fe-f39231805c3f)
   )
-  (label "DEC4" (at 159.385 90.17 270) (fields_autoplaced)
+  (label "DEC4" (at 153.67 89.535 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 22a25305-cbeb-4279-9486-8e4ec1b3605e)
   )
@@ -2569,11 +2581,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2427967a-ed85-4c0f-a299-6bbe903c1a8e)
   )
-  (label "ANT" (at 139.065 105.41 0) (fields_autoplaced)
+  (label "ANT" (at 133.35 104.775 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 27957ebf-092b-481c-b221-2575417ea0ca)
   )
-  (label "V_STORE_DIV" (at 203.2 105.41 180) (fields_autoplaced)
+  (label "V_STORE_DIV" (at 197.485 104.775 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2f1f1025-7a43-44ef-aafb-bd05a26b5174)
   )
@@ -2581,7 +2593,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 35b1e108-1d6a-4232-9d58-bb9f36e10d58)
   )
-  (label "~{IMU_CS}" (at 199.39 110.49 180) (fields_autoplaced)
+  (label "~{IMU_CS}" (at 193.675 109.855 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3dc479e4-f9d0-4f61-b08b-4237b9db265b)
   )
@@ -2597,11 +2609,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 46d7afa6-a7ee-4c69-a6de-75a969a42c6a)
   )
-  (label "IMU_MOSI" (at 199.39 118.11 180) (fields_autoplaced)
+  (label "IMU_MOSI" (at 193.675 117.475 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4a661ee8-9a26-47ff-8cf5-27360a7fabbb)
   )
-  (label "SWDIO" (at 133.985 138.43 0) (fields_autoplaced)
+  (label "SWDIO" (at 128.27 137.795 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5286638f-7f02-427e-bcf4-23f3852743dc)
   )
@@ -2617,7 +2629,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 69c39671-081d-45c2-aa0f-3676a19679d6)
   )
-  (label "IMU_INT1" (at 199.39 120.65 180) (fields_autoplaced)
+  (label "IMU_INT1" (at 193.675 120.015 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6f2fe349-234d-45b0-817e-0e7ec0a6b16e)
   )
@@ -2645,7 +2657,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 78ba2554-42f4-47d4-b74e-22ab46213614)
   )
-  (label "IMU_INT2" (at 199.39 123.19 180) (fields_autoplaced)
+  (label "IMU_INT2" (at 193.675 122.555 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 794f4a0e-5cc6-408d-a154-356c515a4f31)
   )
@@ -2665,7 +2677,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 869085c2-51e7-40be-b6bf-98d99fd5b9c2)
   )
-  (label "DEC1" (at 151.765 90.17 270) (fields_autoplaced)
+  (label "DEC1" (at 146.05 89.535 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8cdec973-7206-44c7-9d17-b05f98b55a86)
   )
@@ -2677,11 +2689,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 91e489e6-1ab3-4b75-b27a-b7f5a2b23c93)
   )
-  (label "DIV_EN" (at 203.2 107.95 180) (fields_autoplaced)
+  (label "DIV_EN" (at 197.485 107.315 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 92e4b101-2ca8-4305-9d76-aeff3ce71d51)
   )
-  (label "SWDCLK" (at 133.985 135.89 0) (fields_autoplaced)
+  (label "SWDCLK" (at 128.27 135.255 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 95d7c34c-2af9-42dc-b7d7-2080606af54d)
   )
@@ -2697,7 +2709,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 994813dc-75fa-496f-8fdf-1ee05198d8bb)
   )
-  (label "DEC3" (at 156.845 90.17 270) (fields_autoplaced)
+  (label "DEC3" (at 151.13 89.535 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9c148376-72c4-4390-a2cc-54d039825929)
   )
@@ -2709,7 +2721,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ee2eabd-df50-4188-bcc9-70eddc7b986f)
   )
-  (label "XL2" (at 194.945 102.87 180) (fields_autoplaced)
+  (label "XL2" (at 189.23 102.235 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9ef75c17-bdf4-454b-85bc-32a94ad5ba59)
   )
@@ -2725,11 +2737,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a30325f9-eca4-4e9f-bd00-35a3ffaeed76)
   )
-  (label "IMU_MISO" (at 199.39 115.57 180) (fields_autoplaced)
+  (label "IMU_MISO" (at 193.675 114.935 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a3d3032a-228c-44f0-82b0-8efb83d2e558)
   )
-  (label "XC1" (at 139.065 115.57 0) (fields_autoplaced)
+  (label "XC1" (at 133.35 114.935 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a424423a-be54-4638-9468-738814d63ab9)
   )
@@ -2737,7 +2749,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid abf7ef5f-999f-43f3-8238-6027391112b0)
   )
-  (label "XL1" (at 194.945 100.33 180) (fields_autoplaced)
+  (label "XL1" (at 189.23 99.695 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b69b2a71-ddb1-431a-b44f-4b858726858f)
   )
@@ -2753,7 +2765,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bf3d4c67-cb73-4bc6-907e-2e8bcb1bd91a)
   )
-  (label "DCC" (at 174.625 90.17 270) (fields_autoplaced)
+  (label "DCC" (at 168.91 89.535 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d1a2c94d-f51e-43e5-85a8-ad45c2d74290)
   )
@@ -2794,10 +2806,35 @@
     (uuid f5db2aca-d62a-4f30-b6a6-b757b77cdaf6)
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 104.14 94.615 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 095f3d1a-c7a8-42b5-9a1f-7bfd3e6f009c)
+    (property "Reference" "TP7" (at 106.68 90.678 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "VCAP" (at 106.68 93.218 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 109.22 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7a79e3da-f310-4829-8ebb-d578dd037326))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small") (at 73.025 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09d08041-12bc-4a57-9948-814c6e2fa842)
-    (property "Reference" "R1" (at 75.565 179.705 0)
+    (property "Reference" "R3" (at 75.565 179.705 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10" (at 75.565 182.245 0)
@@ -2820,7 +2857,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2861,7 +2898,7 @@
   (symbol (lib_id "power:VDD") (at 246.38 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e30dc0d-c261-46ce-84d6-915d232de23c)
-    (property "Reference" "#PWR020" (at 246.38 124.46 0)
+    (property "Reference" "#PWR028" (at 246.38 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 246.38 116.84 0)
@@ -2877,7 +2914,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2886,7 +2923,7 @@
   (symbol (lib_id "Device:C_Small") (at 269.24 149.225 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10c9f44b-880d-4aa4-943d-3ad857867ce9)
-    (property "Reference" "C13" (at 271.78 148.5963 0)
+    (property "Reference" "C23" (at 271.78 148.5963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 271.78 151.1363 0)
@@ -2912,7 +2949,32 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C13") (unit 1)
+          (reference "C23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 100.965 69.85 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 12dbd2b6-3160-4e5b-8269-0683b401e850)
+    (property "Reference" "TP8" (at 103.505 65.913 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2V2_Gen" (at 103.505 68.453 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 106.045 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 106.045 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3bf293a9-f6ec-4a0a-b4f2-a1c8e3b4f732))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -2921,7 +2983,7 @@
   (symbol (lib_id "power:GND") (at 106.045 29.845 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1319c66b-72c0-4a6b-9d7e-e83b35f8f5ee)
-    (property "Reference" "#PWR044" (at 112.395 29.845 0)
+    (property "Reference" "#PWR02" (at 112.395 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 30.48 90)
@@ -2937,7 +2999,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2946,7 +3008,7 @@
   (symbol (lib_id "Device:C_Small") (at 86.36 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14f2bc85-032c-47a0-bbf9-e76c9228231b)
-    (property "Reference" "C23" (at 88.9 73.6663 0)
+    (property "Reference" "C4" (at 88.9 73.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 88.9 76.2063 0)
@@ -2972,7 +3034,32 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C23") (unit 1)
+          (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 120.015 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 1b743c76-f3e9-4f04-80ea-b4c085827b69)
+    (property "Reference" "TP13" (at 198.12 120.015 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "INT1" (at 203.2 120.015 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 193.675 125.095 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.675 125.095 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4e9f77c8-c283-46dd-9808-1ceb133e2381))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP13") (unit 1)
         )
       )
     )
@@ -2981,7 +3068,7 @@
   (symbol (lib_id "power:GND") (at 249.555 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c8409e9-1f60-48ae-94e8-5e6b6d928b0c)
-    (property "Reference" "#PWR018" (at 249.555 105.41 0)
+    (property "Reference" "#PWR024" (at 249.555 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 249.555 104.14 0)
@@ -2997,7 +3084,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3006,7 +3093,7 @@
   (symbol (lib_id "power:GND") (at 171.45 42.545 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ff7acd8-4ec6-40af-8250-7221c3296a69)
-    (property "Reference" "#PWR04" (at 177.8 42.545 0)
+    (property "Reference" "#PWR09" (at 177.8 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 43.18 90)
@@ -3022,7 +3109,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3031,7 +3118,7 @@
   (symbol (lib_id "Device:C_Small") (at 51.435 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2405a796-4a7b-4a84-b487-a79d0a8de808)
-    (property "Reference" "C21" (at 53.975 78.7463 0)
+    (property "Reference" "C6" (at 53.975 78.7463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 53.975 80.645 0)
@@ -3057,7 +3144,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C21") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3066,7 +3153,7 @@
   (symbol (lib_id "power:GND") (at 269.24 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24c364d9-922d-4af7-8ef2-11cab4fd6553)
-    (property "Reference" "#PWR028" (at 269.24 160.02 0)
+    (property "Reference" "#PWR037" (at 269.24 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 269.24 158.115 0)
@@ -3082,7 +3169,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -3091,7 +3178,7 @@
   (symbol (lib_id "E-Tattoo_Parts:2450AT18A100E") (at 254 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27b564fd-e9f5-44df-b07f-fc7359bdc004)
-    (property "Reference" "U1" (at 254.635 49.53 0)
+    (property "Reference" "U2" (at 254.635 49.53 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "2450AT18A100E" (at 246.38 60.325 0)
@@ -3114,7 +3201,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3129,7 +3216,7 @@
     (property "Value" "2V2Ext" (at 58.42 176.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "E-Tattoo_Parts:Testpoint_Hex_D1.5" (at 52.07 172.085 0)
+    (property "Footprint" "E-Tattoo_Parts:Testpoint_Hex_D3.0" (at 52.07 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.07 172.085 0)
@@ -3151,7 +3238,7 @@
   (symbol (lib_id "power:GND") (at 197.485 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30d1ec1b-9c52-4b7a-a42b-380942d78007)
-    (property "Reference" "#PWR010" (at 197.485 55.245 0)
+    (property "Reference" "#PWR014" (at 197.485 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 197.485 53.34 0)
@@ -3167,7 +3254,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3176,7 +3263,7 @@
   (symbol (lib_id "Device:C_Small") (at 69.215 140.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35613312-89c5-4ac6-940d-c486bccc4bba)
-    (property "Reference" "C16" (at 71.755 139.7063 0)
+    (property "Reference" "C20" (at 71.755 139.7063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 71.755 141.605 0)
@@ -3202,7 +3289,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C16") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -3315,7 +3402,7 @@
   (symbol (lib_id "Device:C_Small") (at 254.635 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b117d22-135e-4b57-8a66-ecfbbdffa890)
-    (property "Reference" "C7" (at 254.635 104.14 90)
+    (property "Reference" "C11" (at 254.635 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12pF" (at 254.635 101.6 90)
@@ -3341,7 +3428,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C7") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3350,7 +3437,7 @@
   (symbol (lib_id "power:GND") (at 86.36 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c56ac71-ca62-456a-b1fa-971a66a2ef76)
-    (property "Reference" "#PWR042" (at 86.36 85.09 0)
+    (property "Reference" "#PWR017" (at 86.36 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 83.185 0)
@@ -3366,7 +3453,32 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 117.475 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 3c66856c-7316-4ca1-ad4f-6883481c8fb5)
+    (property "Reference" "TP12" (at 198.12 117.475 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MOSI" (at 203.2 117.475 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 193.675 122.555 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.675 122.555 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5e49af32-c78c-4656-b9da-acd1a0d43636))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP12") (unit 1)
         )
       )
     )
@@ -3375,7 +3487,7 @@
   (symbol (lib_id "Device:C_Small") (at 50.165 177.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d052da0-4f22-47c0-9959-d9c10bb15440)
-    (property "Reference" "C15" (at 52.705 176.5363 0)
+    (property "Reference" "C25" (at 52.705 176.5363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 52.705 178.435 0)
@@ -3401,7 +3513,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C15") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -3410,7 +3522,7 @@
   (symbol (lib_id "Device:R_Small") (at 56.515 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e4fcac9-43e2-4f49-b307-12e3652fbf67)
-    (property "Reference" "R2" (at 55.245 138.43 90)
+    (property "Reference" "R1" (at 55.245 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10M" (at 55.245 140.335 90)
@@ -3433,7 +3545,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3442,7 +3554,7 @@
   (symbol (lib_id "power:GND") (at 184.15 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 400e83c1-415e-48e7-9be6-de0913271d57)
-    (property "Reference" "#PWR09" (at 184.15 55.245 0)
+    (property "Reference" "#PWR013" (at 184.15 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 53.34 0)
@@ -3458,7 +3570,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3467,7 +3579,7 @@
   (symbol (lib_id "power:VDD") (at 132.08 45.085 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44888aa0-e208-4894-9358-d3513801d219)
-    (property "Reference" "#PWR07" (at 135.89 45.085 0)
+    (property "Reference" "#PWR010" (at 135.89 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 128.905 45.72 90)
@@ -3483,7 +3595,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3492,7 +3604,7 @@
   (symbol (lib_id "Device:C_Small") (at 230.505 149.225 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 471e6812-97e8-4941-92ff-bfafc79ab3ca)
-    (property "Reference" "C11" (at 233.045 148.5963 0)
+    (property "Reference" "C21" (at 233.045 148.5963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 233.045 151.1363 0)
@@ -3518,7 +3630,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C11") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -3527,7 +3639,7 @@
   (symbol (lib_id "E-Tattoo_Parts:74488540070") (at 38.735 80.645 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48386455-d750-4d5f-9155-33c02f7c287a)
-    (property "Reference" "T3" (at 43.815 80.4555 90)
+    (property "Reference" "T1" (at 43.815 80.4555 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1:100" (at 46.99 82.55 90)
@@ -3555,7 +3667,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "T3") (unit 1)
+          (reference "T1") (unit 1)
         )
       )
     )
@@ -3564,7 +3676,7 @@
   (symbol (lib_id "Device:C_Small") (at 60.96 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49a9fa9e-0b29-4615-b7f6-54cc68d71071)
-    (property "Reference" "C20" (at 63.5 99.0663 0)
+    (property "Reference" "C13" (at 63.5 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 63.5 100.965 0)
@@ -3590,7 +3702,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C20") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3599,7 +3711,7 @@
   (symbol (lib_id "Device:C_Small") (at 233.045 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49b700db-d091-411e-8aff-ed56b5eb1ae2)
-    (property "Reference" "C8" (at 235.585 124.4663 0)
+    (property "Reference" "C17" (at 235.585 124.4663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 235.585 127.0063 0)
@@ -3625,7 +3737,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C8") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -3681,6 +3793,31 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 122.555 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 536843e3-deb2-4527-8010-929208f62303)
+    (property "Reference" "TP14" (at 198.12 122.555 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "INT2" (at 203.2 122.555 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 193.675 127.635 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.675 127.635 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7267be65-4537-4bfa-9a46-70e5ab8d5191))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP14") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:L_Small") (at 255.27 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54793695-d9eb-4a03-82c1-015920770472)
@@ -3716,7 +3853,7 @@
   (symbol (lib_id "E-Tattoo_Parts:LTC3109EUF-PBF") (at 30.48 29.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54c88124-37de-42e9-8b7f-43a63ada9d74)
-    (property "Reference" "U2" (at 67.31 40.005 0)
+    (property "Reference" "U1" (at 67.31 40.005 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LTC3109EUF-PBF" (at 67.945 43.18 0)
@@ -3758,7 +3895,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3767,7 +3904,7 @@
   (symbol (lib_id "power:GND") (at 51.435 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 550343ce-ce74-4709-aa9b-e86f9c695cf4)
-    (property "Reference" "#PWR035" (at 51.435 93.345 0)
+    (property "Reference" "#PWR019" (at 51.435 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.245 88.9 0)
@@ -3783,31 +3920,56 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "MCU_Nordic:nRF52811-QCxx") (at 167.005 120.65 0) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 112.395 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 5503e72a-b7bd-4d82-bc54-4b09c43f432d)
+    (property "Reference" "TP10" (at 198.12 112.395 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SCK" (at 203.2 112.395 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 193.675 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.675 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2469e1d0-487f-4e10-ba63-b3ec8f88cb46))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MCU_Nordic:nRF52811-QCxx") (at 161.29 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57b86927-d5ed-4b47-aa57-c8d4a5d8a579)
-    (property "Reference" "U3" (at 165.735 118.745 0)
+    (property "Reference" "U3" (at 160.02 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "nRF52811-QCxx" (at 159.385 121.285 0)
+    (property "Value" "nRF52811-QCxx" (at 153.67 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias" (at 167.005 158.75 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias" (at 161.29 158.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://infocenter.nordicsemi.com/pdf/nRF52811_PS_v1.0.pdf" (at 150.495 72.39 0)
+    (property "Datasheet" "https://infocenter.nordicsemi.com/pdf/nRF52811_PS_v1.0.pdf" (at 144.78 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Dielectric" "" (at 167.005 120.65 0)
+    (property "Dielectric" "" (at 161.29 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Part_Number" "nRF52811-QCAA-R" (at 167.005 120.65 0)
+    (property "Manufacturer_Part_Number" "nRF52811-QCAA-R" (at 161.29 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 469982f7-14a4-483d-8b17-16d7f4dd81f3))
@@ -3855,7 +4017,7 @@
   (symbol (lib_id "E-Tattoo_Parts:74488540070") (at 38.735 100.965 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5be65584-ae7c-4e38-a3d1-39331b5aebeb)
-    (property "Reference" "T1" (at 43.815 100.7755 90)
+    (property "Reference" "T2" (at 43.815 100.7755 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1:100" (at 46.99 102.87 90)
@@ -3883,7 +4045,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "T1") (unit 1)
+          (reference "T2") (unit 1)
         )
       )
     )
@@ -3892,7 +4054,7 @@
   (symbol (lib_id "power:VDD") (at 109.855 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e19504d-6727-40e2-9d6b-8d38b117fe06)
-    (property "Reference" "#PWR030" (at 109.855 180.34 0)
+    (property "Reference" "#PWR039" (at 109.855 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 109.855 172.72 0)
@@ -3908,19 +4070,19 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Switch:SW_SPDT") (at 100.965 176.53 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 605da088-48c7-44b4-83dd-60253b930a23)
-    (property "Reference" "SW1" (at 100.965 169.545 0)
+    (property "Reference" "SW1" (at 100.965 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SLW-913535-2A-RA-D" (at 100.965 172.085 0)
+    (property "Value" "SLW-913535-2A-RA-D" (at 98.425 182.245 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "E-Tattoo_Parts:SLW-913535-2A-RA-D" (at 100.965 176.53 0)
@@ -3953,7 +4115,7 @@
   (symbol (lib_id "power:GND") (at 38.735 182.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63be5db2-d154-4ccb-8d42-23be05dd3a93)
-    (property "Reference" "#PWR031" (at 38.735 188.595 0)
+    (property "Reference" "#PWR040" (at 38.735 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.735 186.69 0)
@@ -3969,7 +4131,32 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR040") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 40.64 76.835 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 64022332-35e5-4ffe-83aa-6961d914f782)
+    (property "Reference" "TP5" (at 43.18 72.898 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "+VST" (at 43.18 75.438 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 45.72 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 45.72 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f790e176-c808-4942-a65c-658a2e352cad))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -3978,7 +4165,7 @@
   (symbol (lib_id "power:VDD") (at 171.45 47.625 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 641ddb09-23c6-4a42-8e63-712c6b313366)
-    (property "Reference" "#PWR08" (at 167.64 47.625 0)
+    (property "Reference" "#PWR012" (at 167.64 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 175.26 48.26 90)
@@ -3994,7 +4181,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4003,7 +4190,7 @@
   (symbol (lib_id "Device:C_Small") (at 243.84 149.225 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64b45077-5689-4824-90f3-6191585928ac)
-    (property "Reference" "C12" (at 246.38 148.5963 0)
+    (property "Reference" "C22" (at 246.38 148.5963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100pF" (at 246.38 151.1363 0)
@@ -4029,32 +4216,32 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C12") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 167.005 143.51 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 161.29 142.875 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6892bc2f-def5-406e-a713-94ca629503c3)
-    (property "Reference" "#PWR022" (at 167.005 149.86 0)
+    (property "Reference" "#PWR033" (at 161.29 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 167.005 147.955 0)
+    (property "Value" "GND" (at 161.29 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 167.005 143.51 0)
+    (property "Footprint" "" (at 161.29 142.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 167.005 143.51 0)
+    (property "Datasheet" "" (at 161.29 142.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a8bad69b-a233-4677-a067-ec72a47f5198))
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4095,7 +4282,7 @@
   (symbol (lib_id "power:GND") (at 65.405 145.415 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b5547d1-32e6-4e49-932e-0f673994c00e)
-    (property "Reference" "#PWR033" (at 65.405 151.765 0)
+    (property "Reference" "#PWR034" (at 65.405 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.215 147.32 0)
@@ -4111,7 +4298,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4120,7 +4307,7 @@
   (symbol (lib_id "power:VDD") (at 252.73 31.115 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c7881c2-e0ec-427a-97ec-b46065e244c2)
-    (property "Reference" "#PWR01" (at 256.54 31.115 0)
+    (property "Reference" "#PWR03" (at 256.54 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 249.555 31.115 90)
@@ -4136,7 +4323,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -4145,7 +4332,7 @@
   (symbol (lib_id "Device:R_Small") (at 61.595 140.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72213de3-ba41-4208-afb1-245ca6aab811)
-    (property "Reference" "R3" (at 63.5 139.7 0)
+    (property "Reference" "R2" (at 63.5 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5M" (at 63.5 142.24 0)
@@ -4168,7 +4355,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4177,7 +4364,7 @@
   (symbol (lib_id "Device:C_Small") (at 221.615 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73d32d84-a413-478d-bcd4-06a0949c7a66)
-    (property "Reference" "C4" (at 221.6213 82.55 90)
+    (property "Reference" "C8" (at 221.6213 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12pF" (at 221.6213 85.09 90)
@@ -4203,7 +4390,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C4") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4212,7 +4399,7 @@
   (symbol (lib_id "power:GND") (at 233.045 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73e6b167-14c6-4dfd-8d1f-273c2636ff9f)
-    (property "Reference" "#PWR023" (at 233.045 135.89 0)
+    (property "Reference" "#PWR030" (at 233.045 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.045 133.985 0)
@@ -4228,7 +4415,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -4237,7 +4424,7 @@
   (symbol (lib_id "Device:C_Small") (at 259.715 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78283f43-9d96-455d-ba08-14f5cf5bcc7b)
-    (property "Reference" "C10" (at 262.255 124.4663 0)
+    (property "Reference" "C19" (at 262.255 124.4663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 262.255 127.0063 0)
@@ -4263,7 +4450,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C10") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -4272,7 +4459,7 @@
   (symbol (lib_id "Device:C_Small") (at 100.965 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c3ec880-212e-4936-948d-251c25c21892)
-    (property "Reference" "C24" (at 103.505 73.6663 0)
+    (property "Reference" "C5" (at 103.505 73.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 103.505 76.2063 0)
@@ -4298,7 +4485,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C24") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4307,7 +4494,7 @@
   (symbol (lib_id "power:GND") (at 237.49 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c45ebe8-4057-442e-a02a-ae2e2537ce58)
-    (property "Reference" "#PWR011" (at 237.49 73.025 0)
+    (property "Reference" "#PWR016" (at 237.49 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 71.12 0)
@@ -4323,7 +4510,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4332,7 +4519,7 @@
   (symbol (lib_id "power:VDD") (at 259.715 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ec3c53c-6802-44d1-8a7e-a3f1522fc484)
-    (property "Reference" "#PWR021" (at 259.715 124.46 0)
+    (property "Reference" "#PWR029" (at 259.715 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 259.715 116.84 0)
@@ -4348,7 +4535,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4357,7 +4544,7 @@
   (symbol (lib_id "power:VDD") (at 184.15 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f1f5093-a401-4d91-9711-2203fd4910ee)
-    (property "Reference" "#PWR05" (at 184.15 43.815 0)
+    (property "Reference" "#PWR06" (at 184.15 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 184.15 36.195 0)
@@ -4373,7 +4560,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4382,7 +4569,7 @@
   (symbol (lib_id "power:GND") (at 259.715 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8af25640-a66e-494b-9f9b-e90935c4a7e2)
-    (property "Reference" "#PWR025" (at 259.715 135.89 0)
+    (property "Reference" "#PWR032" (at 259.715 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.715 133.985 0)
@@ -4398,7 +4585,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -4407,7 +4594,7 @@
   (symbol (lib_id "power:GND") (at 20.955 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bdebabc-2048-40f6-ab98-948586a53c52)
-    (property "Reference" "#PWR038" (at 20.955 53.975 0)
+    (property "Reference" "#PWR011" (at 20.955 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 20.955 52.07 0)
@@ -4423,7 +4610,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4432,13 +4619,13 @@
   (symbol (lib_id "Device:C_Polarized") (at 104.14 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cb8c533-1530-4934-98ed-4c7b321a58ee)
-    (property "Reference" "C25" (at 107.95 98.806 0)
+    (property "Reference" "C16" (at 107.95 98.806 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "?" (at 107.95 101.346 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 105.1052 104.14 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C" (at 105.1052 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 100.33 0)
@@ -4452,7 +4639,32 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C25") (unit 1)
+          (reference "C16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 109.855 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 8eed6b82-1ee0-4fec-8fb7-9cacb3848edc)
+    (property "Reference" "TP9" (at 198.12 109.855 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CS" (at 203.2 109.855 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 193.675 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.675 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a037daeb-93a1-4e06-8903-76770cbd6e30))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -4461,7 +4673,7 @@
   (symbol (lib_id "Device:C_Small") (at 254.635 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c0717b8-1729-419c-9f25-819da0894567)
-    (property "Reference" "C5" (at 254.6413 82.55 90)
+    (property "Reference" "C9" (at 254.6413 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12pF" (at 254.6413 85.09 90)
@@ -4487,7 +4699,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C5") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -4496,7 +4708,7 @@
   (symbol (lib_id "power:GND") (at 230.505 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fb61726-59ab-44e5-bc12-4298da58c282)
-    (property "Reference" "#PWR026" (at 230.505 160.02 0)
+    (property "Reference" "#PWR035" (at 230.505 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 230.505 158.115 0)
@@ -4512,32 +4724,32 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:VDD") (at 167.005 92.075 0) (unit 1)
+  (symbol (lib_id "power:VDD") (at 161.29 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2945742-874f-4632-8143-3bc6db67071a)
-    (property "Reference" "#PWR012" (at 167.005 95.885 0)
+    (property "Reference" "#PWR020" (at 161.29 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VDD" (at 167.005 88.265 0)
+    (property "Value" "VDD" (at 161.29 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 167.005 92.075 0)
+    (property "Footprint" "" (at 161.29 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 167.005 92.075 0)
+    (property "Datasheet" "" (at 161.29 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 06292b26-2367-4997-a18d-e3c3788b16ab))
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4546,7 +4758,7 @@
   (symbol (lib_id "power:GND") (at 111.125 42.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3e6fa2b-eb4b-40cc-ae0c-20e5dfd86a9f)
-    (property "Reference" "#PWR039" (at 111.125 48.895 0)
+    (property "Reference" "#PWR08" (at 111.125 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.125 46.99 0)
@@ -4562,7 +4774,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4612,7 +4824,7 @@
     (property "Value" "GND" (at 43.815 186.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "E-Tattoo_Parts:Testpoint_Hex_D1.5" (at 37.465 182.245 0)
+    (property "Footprint" "E-Tattoo_Parts:Testpoint_Hex_D3.0" (at 37.465 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 37.465 182.245 0)
@@ -4634,7 +4846,7 @@
   (symbol (lib_id "power:GND") (at 227.33 93.345 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab64bad6-95b0-40bd-9170-8eb100af3a2f)
-    (property "Reference" "#PWR013" (at 220.98 93.345 0)
+    (property "Reference" "#PWR021" (at 220.98 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 93.98 90)
@@ -4650,7 +4862,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4659,7 +4871,7 @@
   (symbol (lib_id "Device:C_Small") (at 221.615 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b02e3551-ebac-4bbf-9ddb-6e3393188ee5)
-    (property "Reference" "C6" (at 221.615 104.14 90)
+    (property "Reference" "C10" (at 221.615 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12pF" (at 221.615 101.6 90)
@@ -4685,7 +4897,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C6") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4694,7 +4906,7 @@
   (symbol (lib_id "power:GND") (at 246.38 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b166f145-0ffa-4d82-ad93-a9f467947a4f)
-    (property "Reference" "#PWR024" (at 246.38 135.89 0)
+    (property "Reference" "#PWR031" (at 246.38 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 133.985 0)
@@ -4710,7 +4922,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -4719,7 +4931,7 @@
   (symbol (lib_id "power:GND") (at 51.435 107.315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6a41187-07b1-474e-82ed-bc0d2383e238)
-    (property "Reference" "#PWR034" (at 51.435 113.665 0)
+    (property "Reference" "#PWR026" (at 51.435 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.245 109.22 0)
@@ -4735,7 +4947,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -4744,7 +4956,7 @@
   (symbol (lib_id "Device:C_Small") (at 31.115 177.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b80cf30f-d542-4062-a662-e2c37fc220aa)
-    (property "Reference" "C14" (at 24.765 176.53 0)
+    (property "Reference" "C24" (at 24.765 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 24.765 178.435 0)
@@ -4770,7 +4982,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C14") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -4785,7 +4997,7 @@
     (property "Value" "VDD" (at 111.76 181.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "E-Tattoo_Parts:Testpoint_Hex_D1.5" (at 104.775 176.53 0)
+    (property "Footprint" "E-Tattoo_Parts:Testpoint_Hex_D3.0" (at 104.775 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.775 176.53 0)
@@ -4807,7 +5019,7 @@
   (symbol (lib_id "Device:C_Small") (at 51.435 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bebe1229-3f69-407c-93d3-3219fe0673e9)
-    (property "Reference" "C19" (at 53.975 99.0663 0)
+    (property "Reference" "C12" (at 53.975 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 53.975 100.965 0)
@@ -4833,7 +5045,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C19") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -4842,13 +5054,13 @@
   (symbol (lib_id "Device:C_Polarized") (at 90.805 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4a273ad-64f6-44a6-be9f-6ffe3d0c2b82)
-    (property "Reference" "C18" (at 94.615 98.806 0)
+    (property "Reference" "C15" (at 94.615 98.806 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "?" (at 94.615 101.346 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 91.7702 104.14 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C" (at 91.7702 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 90.805 100.33 0)
@@ -4862,7 +5074,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C18") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4871,7 +5083,7 @@
   (symbol (lib_id "Device:C_Small") (at 246.38 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cca902ad-9a4c-4683-9d2e-036884971b0d)
-    (property "Reference" "C9" (at 248.92 124.4663 0)
+    (property "Reference" "C18" (at 248.92 124.4663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 248.92 127.0063 0)
@@ -4897,7 +5109,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C9") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -4906,7 +5118,7 @@
   (symbol (lib_id "power:GND") (at 100.965 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cda650a1-8469-43f1-bbbf-10c4ce898b89)
-    (property "Reference" "#PWR043" (at 100.965 85.09 0)
+    (property "Reference" "#PWR018" (at 100.965 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.965 83.185 0)
@@ -4922,7 +5134,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4931,7 +5143,7 @@
   (symbol (lib_id "power:GND") (at 237.49 93.345 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfe4768f-2013-489a-a4a0-7808c1abfe9b)
-    (property "Reference" "#PWR014" (at 243.84 93.345 0)
+    (property "Reference" "#PWR022" (at 243.84 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.665 93.98 90)
@@ -4947,7 +5159,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4956,7 +5168,7 @@
   (symbol (lib_id "power:GND") (at 252.73 36.195 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d32c7004-afe6-441a-b8b7-50c9be957efa)
-    (property "Reference" "#PWR03" (at 246.38 36.195 0)
+    (property "Reference" "#PWR05" (at 246.38 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 249.555 36.195 90)
@@ -4972,7 +5184,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4981,7 +5193,7 @@
   (symbol (lib_id "power:GND") (at 252.73 23.495 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3f9f362-092b-4cd1-a923-092bff4f6491)
-    (property "Reference" "#PWR037" (at 246.38 23.495 0)
+    (property "Reference" "#PWR01" (at 246.38 23.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 249.555 23.495 90)
@@ -4997,7 +5209,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -5006,7 +5218,7 @@
   (symbol (lib_id "power:GND") (at 216.535 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d45f42f2-7e05-456d-87aa-463856c64400)
-    (property "Reference" "#PWR017" (at 216.535 105.41 0)
+    (property "Reference" "#PWR023" (at 216.535 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 216.535 104.14 0)
@@ -5022,7 +5234,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5098,7 +5310,7 @@
   (symbol (lib_id "E-Tattoo_Parts:CSD23381F4") (at 38.1 143.51 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da079003-8958-42a4-a111-888967b674a2)
-    (property "Reference" "Q2" (at 40.64 129.54 90)
+    (property "Reference" "Q1" (at 40.64 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CSD23381F4" (at 40.64 132.08 90)
@@ -5134,7 +5346,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "Q2") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -5143,7 +5355,7 @@
   (symbol (lib_id "power:GND") (at 111.125 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da42ca64-a793-46aa-ac75-1183c19d8e75)
-    (property "Reference" "#PWR040" (at 111.125 61.595 0)
+    (property "Reference" "#PWR015" (at 111.125 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.125 59.69 0)
@@ -5159,7 +5371,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5168,7 +5380,7 @@
   (symbol (lib_id "power:+3V3") (at 252.73 33.655 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbf83ee6-2cae-4c88-b405-bf245ffb64ed)
-    (property "Reference" "#PWR02" (at 256.54 33.655 0)
+    (property "Reference" "#PWR04" (at 256.54 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 249.555 33.655 90)
@@ -5184,7 +5396,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -5227,7 +5439,7 @@
   (symbol (lib_id "power:GND") (at 243.84 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df155a82-d02c-4748-845b-fcab93faa571)
-    (property "Reference" "#PWR027" (at 243.84 160.02 0)
+    (property "Reference" "#PWR036" (at 243.84 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 158.115 0)
@@ -5243,7 +5455,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -5284,7 +5496,7 @@
   (symbol (lib_id "Device:C_Small") (at 60.96 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0337f79-f895-4cd4-a338-407ba3d5bfe9)
-    (property "Reference" "C22" (at 63.5 78.7463 0)
+    (property "Reference" "C7" (at 63.5 78.7463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 63.5 80.645 0)
@@ -5310,7 +5522,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C22") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5319,7 +5531,7 @@
   (symbol (lib_id "power:GND") (at 76.835 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e14f8173-4392-490f-a16a-eaac5469c51e)
-    (property "Reference" "#PWR036" (at 76.835 112.395 0)
+    (property "Reference" "#PWR025" (at 76.835 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.645 107.95 0)
@@ -5335,7 +5547,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5350,7 +5562,7 @@
     (property "Value" "3V3Ext" (at 15.24 176.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "E-Tattoo_Parts:Testpoint_Hex_D1.5" (at 18.415 172.085 0)
+    (property "Footprint" "E-Tattoo_Parts:Testpoint_Hex_D3.0" (at 18.415 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 18.415 172.085 0)
@@ -5372,7 +5584,7 @@
   (symbol (lib_id "power:VDD") (at 233.045 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e896b23c-61d1-4df4-bb37-539972bf796e)
-    (property "Reference" "#PWR019" (at 233.045 124.46 0)
+    (property "Reference" "#PWR027" (at 233.045 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 233.045 116.84 0)
@@ -5388,7 +5600,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -5397,7 +5609,7 @@
   (symbol (lib_id "power:+3V3") (at 23.495 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f02453e0-82cc-406a-a5d6-c1dad31af74c)
-    (property "Reference" "#PWR029" (at 23.495 175.895 0)
+    (property "Reference" "#PWR038" (at 23.495 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 23.495 168.91 0)
@@ -5413,7 +5625,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -5422,7 +5634,7 @@
   (symbol (lib_id "power:GND") (at 73.025 184.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f33dbd57-7997-44fd-8639-3c577589c345)
-    (property "Reference" "#PWR032" (at 73.025 191.135 0)
+    (property "Reference" "#PWR041" (at 73.025 191.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.025 189.23 0)
@@ -5438,7 +5650,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -5514,10 +5726,35 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 193.675 114.935 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid f962d9cd-c47f-4b16-a515-1fba8245838a)
+    (property "Reference" "TP11" (at 198.12 114.935 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MISO" (at 203.2 114.935 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 193.675 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.675 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6b6f1038-d6a8-4fc0-8bfe-7a42e2028c2f))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP11") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Polarized") (at 76.835 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa6c4400-6dba-4331-bfcd-448a660ec039)
-    (property "Reference" "C17" (at 80.645 98.806 0)
+    (property "Reference" "C14" (at 80.645 98.806 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 80.645 101.346 0)
@@ -5540,7 +5777,32 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "C17") (unit 1)
+          (reference "C14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 40.64 97.155 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fcb51232-4652-43f5-b512-798dfc182e72)
+    (property "Reference" "TP6" (at 43.18 93.218 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "-VST" (at 43.18 95.758 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 45.72 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 45.72 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8952d572-76c8-479a-8fe1-63454ce88b7d))
+    (instances
+      (project "imu-harvester"
+        (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -5549,7 +5811,7 @@
   (symbol (lib_id "power:VDD") (at 197.485 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd65a711-19cb-44a6-b27d-d846ceb453e3)
-    (property "Reference" "#PWR06" (at 197.485 43.815 0)
+    (property "Reference" "#PWR07" (at 197.485 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 197.485 36.195 0)
@@ -5565,7 +5827,7 @@
     (instances
       (project "imu-harvester"
         (path "/fece34dc-1cbe-4879-bbf7-9dbb0cf9798a"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )

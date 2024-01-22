@@ -1,4 +1,4 @@
-21728333971550348
+21730039907570168
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53617,8 +53617,8 @@ SLW-913535-2A-RA-D
 
 
 0
-0
-0
+3
+3
 E-Tattoo_Parts
 Testpoint_Hex_D1.5
 
@@ -53626,6 +53626,13 @@ net tie test point
 0
 1
 1
+E-Tattoo_Parts
+Testpoint_Hex_D3.0
+
+
+0
+0
+0
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
