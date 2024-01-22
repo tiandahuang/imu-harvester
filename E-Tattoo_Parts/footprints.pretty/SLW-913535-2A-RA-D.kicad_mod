@@ -13,8 +13,8 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c475ea60-9bb3-492a-a867-3c97ed31bf0a)
   )
-  (fp_line (start -5 -1) (end -5 2.5)
-    (stroke (width 0.05) (type default)) (layer "F.CrtYd") (tstamp a17e7dec-7de8-42c4-99fe-863ae4f569ba))
+  (fp_rect (start -3.5 -1) (end 3.5 1)
+    (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (tstamp 322957f8-06c6-447f-9bbd-8d011815ae0e))
   (fp_poly
     (pts
       (xy -5 -1)
