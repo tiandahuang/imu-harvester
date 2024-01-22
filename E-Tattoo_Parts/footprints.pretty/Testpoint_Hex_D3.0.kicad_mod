@@ -13,18 +13,21 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f968f7b2-b8ac-4f51-9a84-84e701718621)
   )
-  (fp_poly
-    (pts
-      (xy 0 -1.5)
-      (xy 1.299 -0.75)
-      (xy 1.299 0.75)
-      (xy 0 1.5)
-      (xy -1.299 0.75)
-      (xy -1.299 -0.75)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 6e787692-1ee6-4dea-9288-df570a145c87))
   (fp_circle (center 0 0) (end 0 -1.5)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 74c4cb5c-5b30-4436-b820-c0b951e84c8f))
-  (pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ba5cd0ae-2ae0-4014-9f0e-40e7102c82ad))
+  (pad "1" smd custom (at 0 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0 -1.5)
+          (xy 1.299 -0.75)
+          (xy 1.299 0.75)
+          (xy 0 1.5)
+          (xy -1.299 0.75)
+          (xy -1.299 -0.75)
+        )
+        (width 0) (fill yes))
+    ) (tstamp ba5cd0ae-2ae0-4014-9f0e-40e7102c82ad))
 )
