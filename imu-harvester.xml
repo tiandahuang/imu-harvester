@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Tienda\Documents\Projects\Radu-Research\imu-harvester\imu-harvester.kicad_sch</source>
+    <date>1/22/2024 4:19:53 PM</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>imu-harvester.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AC1">
+      <value>BMA400</value>
+      <footprint>E-Tattoo_Parts:BOSCH_LGA-12</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fa80b3d87963a3ff599e323b9a26d827.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">BOSCH</field>
+        <field name="Manufacturer_Part_Number">BMA400</field>
+        <field name="Mouser Part Number">262-BMA400</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA400?qs=f9yNj16SXrKBoguHUc32eQ%3D%3D</field>
+      </fields>
+      <libsource lib="E-Tattoo_Parts" part="BMA400" description="Ultra-low power triaxial accelerometer"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="262-BMA400"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA400?qs=f9yNj16SXrKBoguHUc32eQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="BOSCH"/>
+      <property name="Manufacturer_Part_Number" value="BMA400"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Ultra-low power triaxial accelerometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3976e22c-b988-4a24-9460-fd41157c5b25</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">KGM05AR71C104KN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05AR71C104KN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f75b35bc-fabc-4593-8b0d-965a74c17833</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">KGM05AR71C104KN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05AR71C104KN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f880e08b-9afc-41c1-9ea3-fa7afcd9796b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.8pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">NP0</field>
+        <field name="Manufacturer_Part_Number">GRM1555C1ER80BA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="NP0"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="GRM1555C1ER80BA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d85d268a-a776-4422-8420-b9603baa0579</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">CM05X7R105K06AH-HE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="CM05X7R105K06AH-HE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14f2bc85-032c-47a0-bbf9-e76c9228231b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">GRM155Z71A225KE01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="GRM155Z71A225KE01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c3ec880-212e-4936-948d-251c25c21892</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">C0402C102KCRACAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="C0402C102KCRACAUTO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2405a796-4a7b-4a84-b487-a79d0a8de808</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">NP0</field>
+        <field name="Manufacturer_Part_Number">KGM05ACG1H471JH</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="NP0"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05ACG1H471JH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0337f79-f895-4cd4-a338-407ba3d5bfe9</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">NP0</field>
+        <field name="Manufacturer_Part_Number">KGM05ACG1H120JN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="NP0"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05ACG1H120JN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73d32d84-a413-478d-bcd4-06a0949c7a66</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">NP0</field>
+        <field name="Manufacturer_Part_Number">KGM05ACG1H120JN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="NP0"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05ACG1H120JN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c0717b8-1729-419c-9f25-819da0894567</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">NP0</field>
+        <field name="Manufacturer_Part_Number">KGM05ACG1H120JN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="NP0"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05ACG1H120JN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b02e3551-ebac-4bbf-9ddb-6e3393188ee5</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">NP0</field>
+        <field name="Manufacturer_Part_Number">KGM05ACG1H120JN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="NP0"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05ACG1H120JN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b117d22-135e-4b57-8a66-ecfbbdffa890</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">C0402C102KCRACAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="C0402C102KCRACAUTO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bebe1229-3f69-407c-93d3-3219fe0673e9</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">NP0</field>
+        <field name="Manufacturer_Part_Number">KGM05ACG1H471JH</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="NP0"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05ACG1H471JH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49a9fa9e-0b29-4615-b7f6-54cc68d71071</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Vishay-Sprague/TL3C107K010C0200?qs=BmgG4gLlRjU2nu4%2FYH%2F9oQ%3D%3D</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">TL3C107K010C0200</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="TL3C107K010C0200"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa6c4400-6dba-4331-bfcd-448a660ec039</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>?</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4a273ad-64f6-44a6-be9f-6ffe3d0c2b82</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>?</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cb8c533-1530-4934-98ed-4c7b321a58ee</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">GRM188Z71C475KE21D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="GRM188Z71C475KE21D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49b700db-d091-411e-8aff-ed56b5eb1ae2</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">KGM05AR71C104KN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05AR71C104KN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cca902ad-9a4c-4683-9d2e-036884971b0d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">KGM05AR71C104KN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05AR71C104KN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78283f43-9d96-455d-ba08-14f5cf5bcc7b</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">C0402C103K1RACAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="C0402C103K1RACAUTO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35613312-89c5-4ac6-940d-c486bccc4bba</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">KGM05AR71C104KN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05AR71C104KN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>471e6812-97e8-4941-92ff-bfafc79ab3ca</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">NP0</field>
+        <field name="Manufacturer_Part_Number">KGM05ACG1H101JN</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="NP0"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="KGM05ACG1H101JN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64b45077-5689-4824-90f3-6191585928ac</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">CM05X7R105K06AH-HE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="CM05X7R105K06AH-HE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10c9f44b-880d-4aa4-943d-3ad857867ce9</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">CM05X7R105K06AH-HE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="CM05X7R105K06AH-HE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b80cf30f-d542-4062-a662-e2c37fc220aa</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer_Part_Number">CM05X7R105K06AH-HE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Manufacturer_Part_Number" value="CM05X7R105K06AH-HE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d052da0-4f22-47c0-9959-d9c10bb15440</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LO Q976.01-P2R2-25-1</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">LO Q976.01-P2R2-25-1</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="LO Q976.01-P2R2-25-1"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c268001-df32-43c2-8b0e-fdf1e49635a5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>53261-0671</value>
+      <footprint>E-Tattoo_Parts:532610671</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/532610671_sd.pdf</datasheet>
+      <fields>
+        <field name="Height">3.6</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">53261-0671</field>
+        <field name="Mouser Part Number">538-53261-0671</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/53261-0671?qs=%252B72YyncTwW9Wyr77z4J2cA%3D%3D</field>
+      </fields>
+      <libsource lib="E-Tattoo_Parts" part="53261-0671" description="1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel"/>
+      <property name="Height" value="3.6"/>
+      <property name="Mouser Part Number" value="538-53261-0671"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Molex/53261-0671?qs=%252B72YyncTwW9Wyr77z4J2cA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Molex"/>
+      <property name="Manufacturer_Part_Number" value="53261-0671"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50978524-1fa8-4dc9-b5f5-88c5a9941e21</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>53261-0671</value>
+      <footprint>E-Tattoo_Parts:532610671</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/532610671_sd.pdf</datasheet>
+      <fields>
+        <field name="Height">3.6</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">53261-0671</field>
+        <field name="Mouser Part Number">538-53261-0671</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/53261-0671?qs=%252B72YyncTwW9Wyr77z4J2cA%3D%3D</field>
+      </fields>
+      <libsource lib="E-Tattoo_Parts" part="53261-0671" description="1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel"/>
+      <property name="Height" value="3.6"/>
+      <property name="Mouser Part Number" value="538-53261-0671"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Molex/53261-0671?qs=%252B72YyncTwW9Wyr77z4J2cA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Molex"/>
+      <property name="Manufacturer_Part_Number" value="53261-0671"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39ccb085-8f99-45ce-961a-b09ffa09072c</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.9nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">LQG15WZ3N9B02D</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="LQG15WZ3N9B02D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dff6e314-75c0-49cb-ab14-646a7251e90e</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">KLZ1608MHR100WTD25</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="KLZ1608MHR100WTD25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54793695-d9eb-4a03-82c1-015920770472</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>15nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">LQG15WZ15NG02D</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="LQG15WZ15NG02D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6af6a4c4-021c-4421-8b8a-8eeb79abfd29</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>CSD23381F4</value>
+      <footprint>E-Tattoo_Parts:CSD23381F4</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/csd23381f4.pdf?ts=1662173605819&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCSD23381F4%252Fpart-details%252FCSD23381F4%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Docb-tistore-promo-app</datasheet>
+      <fields>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CSD23381F4</field>
+        <field name="Mouser Part Number">595-CSD23381F4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD23381F4?qs=gNSudQoqUYCRiS8bBMuiEw%3D%3D</field>
+      </fields>
+      <libsource lib="E-Tattoo_Parts" part="CSD23381F4" description="MOSFET 12V P-CH FemtoFET MOSFET"/>
+      <property name="Height" value="0.36"/>
+      <property name="Mouser Part Number" value="595-CSD23381F4"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD23381F4?qs=gNSudQoqUYCRiS8bBMuiEw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="CSD23381F4"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="MOSFET 12V P-CH FemtoFET MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da079003-8958-42a4-a111-888967b674a2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RCC040210M0FKED</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="RCC040210M0FKED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e4fcac9-43e2-4f49-b307-12e3652fbf67</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">CRCW04024M99FKED</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="CRCW04024M99FKED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72213de3-ba41-4208-afb1-245ca6aab811</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RCC040210R0FKED</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="RCC040210R0FKED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09d08041-12bc-4a57-9948-814c6e2fa842</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SLW-913535-2A-RA-D</value>
+      <footprint>E-Tattoo_Parts:SLW-913535-2A-RA-D</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/slw_913535_2a_ra_d-3240856.pdf</datasheet>
+      <fields>
+        <field name="Height">3.5</field>
+        <field name="Manufacturer_Part_Number">SLW-913535-2A-RA-D</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Height" value="3.5"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="SLW-913535-2A-RA-D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>605da088-48c7-44b4-83dd-60253b930a23</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>1:100</value>
+      <footprint>E-Tattoo_Parts:74488540070</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/74488540070.pdf</datasheet>
+      <fields>
+        <field name="Height">4.0</field>
+        <field name="Manufacturer_Part_Number">74488540070</field>
+      </fields>
+      <libsource lib="E-Tattoo_Parts" part="74488540070" description="1:100 Coupled Inductor"/>
+      <property name="Height" value="4.0"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="74488540070"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="1:100 Coupled Inductor"/>
+      <property name="ki_keywords" value="transformer energy harvesting inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48386455-d750-4d5f-9155-33c02f7c287a</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>1:100</value>
+      <footprint>E-Tattoo_Parts:74488540070</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/74488540070.pdf</datasheet>
+      <fields>
+        <field name="Height">4.0</field>
+        <field name="Manufacturer_Part_Number">74488540070</field>
+      </fields>
+      <libsource lib="E-Tattoo_Parts" part="74488540070" description="1:100 Coupled Inductor"/>
+      <property name="Height" value="4.0"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="74488540070"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="1:100 Coupled Inductor"/>
+      <property name="ki_keywords" value="transformer energy harvesting inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5be65584-ae7c-4e38-a3d1-39331b5aebeb</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>3V3Ext</value>
+      <footprint>E-Tattoo_Parts:Testpoint_Hex_D3.0</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4d46862-62a6-4710-b6cd-ce121f59304f</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>2V2Ext</value>
+      <footprint>E-Tattoo_Parts:Testpoint_Hex_D3.0</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e39ffd8-b3b2-47e8-8619-d0f46babcf0a</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>VDD</value>
+      <footprint>E-Tattoo_Parts:Testpoint_Hex_D3.0</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb870f2d-99c2-4d82-8ea2-08024970563d</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>GND</value>
+      <footprint>E-Tattoo_Parts:Testpoint_Hex_D3.0</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Dielectric" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a91c15cd-8dd3-458c-a3ae-9914ebf3a61c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LTC3109EUF-PBF</value>
+      <footprint>E-Tattoo_Parts:QFN-20_UF_LIT</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/3109fb.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">LTC3109EUF#PBF</field>
+      </fields>
+      <libsource lib="E-Tattoo_Parts" part="LTC3109EUF-PBF" description=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="LTC3109EUF#PBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_keywords" value="LTC3109EUF#PBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54c88124-37de-42e9-8b7f-43a63ada9d74</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>2450AT18A100E</value>
+      <footprint>2450AT18A100E_JOT</footprint>
+      <datasheet>2450AT18A100E</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">2450AT18A100E</field>
+      </fields>
+      <libsource lib="E-Tattoo_Parts" part="2450AT18A100E" description=""/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="2450AT18A100E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_keywords" value="2450AT18A100E"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27b564fd-e9f5-44df-b07f-fc7359bdc004</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>nRF52811-QCxx</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias</footprint>
+      <datasheet>https://infocenter.nordicsemi.com/pdf/nRF52811_PS_v1.0.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">nRF52811-QCAA-R</field>
+      </fields>
+      <libsource lib="MCU_Nordic" part="nRF52811-QCxx" description="Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, QFN-32"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="nRF52811-QCAA-R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, QFN-32"/>
+      <property name="ki_keywords" value="MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57b86927-d5ed-4b47-aa57-c8d4a5d8a579</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TPS7A0222PDBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps7a05.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">TPS7A0222PDBVR</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TPS7A0522PDBV" description="200-mA Ultra-Low-Iq LDO, 2.2V, SOT-23-5"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="TPS7A0222PDBVR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="200-mA Ultra-Low-Iq LDO, 2.2V, SOT-23-5"/>
+      <property name="ki_keywords" value="Single Output LDO Low-Iq"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7cd32f7-a7b7-41ee-b28d-729c8daa2864</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>32MHz</value>
+      <footprint>Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/122/ECX_1637B2-2400564.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">ECS-320-8-37B2-JTY-TR</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="ECS-320-8-37B2-JTY-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc3ec563-0c3e-4242-80df-eee858c4223c</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>32.768kHz</value>
+      <footprint>Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/122/ECX-12R-1314062.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">ECS-.327-9-12R-TR</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Dielectric" value=""/>
+      <property name="Manufacturer_Part_Number" value="ECS-.327-9-12R-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="imu-harvester.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d825b3bd-56d6-4b55-833f-a3721dfe9b4a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E-Tattoo_Parts" part="2450AT18A100E">
+      <docs>2450AT18A100E</docs>
+      <footprints>
+        <fp>2450AT18A100E_JOT</fp>
+        <fp>2450AT18A100E_JOT-M</fp>
+        <fp>2450AT18A100E_JOT-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">2450AT18A100E</field>
+        <field name="Footprint">2450AT18A100E_JOT</field>
+        <field name="Datasheet">2450AT18A100E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="E-Tattoo_Parts" part="53261-0671">
+      <description>1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Surface Mount, Tin (Sn) Plating, Friction Lock,  Circuits, Tape and Reel</description>
+      <docs>https://www.molex.com/pdm_docs/sd/532610671_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">53261-0671</field>
+        <field name="Footprint">E-Tattoo_Parts:532610671</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/532610671_sd.pdf</field>
+        <field name="Height">3.6</field>
+        <field name="Mouser Part Number">538-53261-0671</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/53261-0671?qs=%252B72YyncTwW9Wyr77z4J2cA%3D%3D</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">53261-0671</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E-Tattoo_Parts" part="74488540070">
+      <description>1:100 Coupled Inductor</description>
+      <docs>https://www.we-online.com/components/products/datasheet/74488540070.pdf</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Footprint">E-Tattoo_Parts:74488540070</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/74488540070.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E-Tattoo_Parts" part="BMA400">
+      <description>Ultra-low power triaxial accelerometer</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fa80b3d87963a3ff599e323b9a26d827.pdf</docs>
+      <fields>
+        <field name="Reference">AC</field>
+        <field name="Value">BMA400</field>
+        <field name="Footprint">E-Tattoo_Parts:BOSCH_LGA-12</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fa80b3d87963a3ff599e323b9a26d827.pdf</field>
+        <field name="Mouser Part Number">262-BMA400</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA400?qs=f9yNj16SXrKBoguHUc32eQ%3D%3D</field>
+        <field name="Manufacturer_Name">BOSCH</field>
+        <field name="Manufacturer_Part_Number">BMA400</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO" type="passive"/>
+        <pin num="2" name="SDX" type="passive"/>
+        <pin num="3" name="VDDIO" type="passive"/>
+        <pin num="4" name="NC_1" type="passive"/>
+        <pin num="5" name="INT1" type="passive"/>
+        <pin num="6" name="INT2" type="passive"/>
+        <pin num="7" name="VDD" type="passive"/>
+        <pin num="8" name="GNDIO" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="CSB" type="passive"/>
+        <pin num="11" name="NC_2" type="passive"/>
+        <pin num="12" name="SCX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E-Tattoo_Parts" part="CSD23381F4">
+      <description>MOSFET 12V P-CH FemtoFET MOSFET</description>
+      <docs>https://www.ti.com/lit/ds/symlink/csd23381f4.pdf?ts=1662173605819&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCSD23381F4%252Fpart-details%252FCSD23381F4%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Docb-tistore-promo-app</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CSD23381F4</field>
+        <field name="Footprint">E-Tattoo_Parts:CSD23381F4</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/csd23381f4.pdf?ts=1662173605819&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCSD23381F4%252Fpart-details%252FCSD23381F4%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Docb-tistore-promo-app</field>
+        <field name="Height">0.36</field>
+        <field name="Mouser Part Number">595-CSD23381F4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD23381F4?qs=gNSudQoqUYCRiS8bBMuiEw%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CSD23381F4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E-Tattoo_Parts" part="LTC3109EUF-PBF">
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/3109fb.pdf</docs>
+      <footprints>
+        <fp>QFN-20_UF_LIT</fp>
+        <fp>QFN-20_UF_LIT-M</fp>
+        <fp>QFN-20_UF_LIT-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC3109EUF-PBF</field>
+        <field name="Footprint">E-Tattoo_Parts:QFN-20_UF_LIT</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/3109fb.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSTORE" type="output"/>
+        <pin num="2" name="VAUX" type="output"/>
+        <pin num="3" name="VOUT" type="output"/>
+        <pin num="4" name="VOUT2" type="output"/>
+        <pin num="5" name="VOUT2_EN" type="output"/>
+        <pin num="6" name="PGOOD" type="output"/>
+        <pin num="7" name="VLDO" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="C1B" type="input"/>
+        <pin num="10" name="C2B" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="SWB" type="unspecified"/>
+        <pin num="13" name="VINB" type="input"/>
+        <pin num="14" name="VINA" type="input"/>
+        <pin num="15" name="SWA" type="unspecified"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="C2A" type="input"/>
+        <pin num="18" name="C1A" type="input"/>
+        <pin num="19" name="VS1" type="output"/>
+        <pin num="20" name="VS2" type="output"/>
+        <pin num="21" name="EPAD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Nordic" part="nRF52811-QCxx">
+      <description>Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, QFN-32</description>
+      <docs>https://infocenter.nordicsemi.com/pdf/nRF52811_PS_v1.0.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*5x5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">nRF52811-QCxx</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias</field>
+        <field name="Datasheet">https://infocenter.nordicsemi.com/pdf/nRF52811_PS_v1.0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DEC1" type="passive"/>
+        <pin num="2" name="XL1/P0.00" type="bidirectional"/>
+        <pin num="3" name="XL2/P0.01" type="bidirectional"/>
+        <pin num="4" name="AIN2/P0.04" type="bidirectional"/>
+        <pin num="5" name="AIN3/P0.05" type="bidirectional"/>
+        <pin num="6" name="P0.06" type="bidirectional"/>
+        <pin num="7" name="P0.09" type="bidirectional"/>
+        <pin num="8" name="P0.10" type="bidirectional"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="P0.12" type="bidirectional"/>
+        <pin num="11" name="P0.14" type="bidirectional"/>
+        <pin num="12" name="P0.15" type="bidirectional"/>
+        <pin num="13" name="P0.16" type="bidirectional"/>
+        <pin num="14" name="P0.18" type="bidirectional"/>
+        <pin num="15" name="P0.20" type="bidirectional"/>
+        <pin num="16" name="P0.21/~{RESET}" type="bidirectional"/>
+        <pin num="17" name="SWDCLK" type="input"/>
+        <pin num="18" name="SWDIO" type="bidirectional"/>
+        <pin num="19" name="ANT" type="passive"/>
+        <pin num="20" name="VSS" type="power_in"/>
+        <pin num="21" name="DEC2" type="passive"/>
+        <pin num="22" name="DEC3" type="passive"/>
+        <pin num="23" name="XC1" type="input"/>
+        <pin num="24" name="XC2" type="input"/>
+        <pin num="25" name="VDD" type="power_in"/>
+        <pin num="26" name="P0.25" type="bidirectional"/>
+        <pin num="27" name="AIN4/P0.28" type="bidirectional"/>
+        <pin num="28" name="AIN6/P0.30" type="bidirectional"/>
+        <pin num="29" name="VSS" type="passive"/>
+        <pin num="30" name="DEC4" type="passive"/>
+        <pin num="31" name="DCC" type="power_out"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TPS7A0522PDBV">
+      <description>200-mA Ultra-Low-Iq LDO, 2.2V, SOT-23-5</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps7a05.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS7A0522PDBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps7a05.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="E-Tattoo_Parts">
+      <uri>C:\Users\Tienda\Documents\Projects\Radu-Research\imu-harvester/E-Tattoo_Parts/E-Tattoo_Parts.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Nordic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Nordic.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="2" name="/+V_Stator">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="T1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="VINB" pintype="input"/>
+    </net>
+    <net code="3" name="/-V_Stator">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="T2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VINA" pintype="input"/>
+    </net>
+    <net code="4" name="/ANT">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="ANT" pintype="passive"/>
+    </net>
+    <net code="5" name="/DCC">
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="31" pinfunction="DCC" pintype="power_out"/>
+    </net>
+    <net code="6" name="/DEC1">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="DEC1" pintype="passive"/>
+    </net>
+    <net code="7" name="/DEC3">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="DEC3" pintype="passive"/>
+    </net>
+    <net code="8" name="/DEC4">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="DEC4" pintype="passive"/>
+    </net>
+    <net code="9" name="/DIV_EN">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="AIN3/P0.05" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/IMU_INT1">
+      <node ref="AC1" pin="5" pinfunction="INT1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="P0.14" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/IMU_INT2">
+      <node ref="AC1" pin="6" pinfunction="INT2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="P0.15" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/IMU_MISO">
+      <node ref="AC1" pin="1" pinfunction="SDO" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="P0.10" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/IMU_MOSI">
+      <node ref="AC1" pin="2" pinfunction="SDX" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="P0.12" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/IMU_SCK">
+      <node ref="AC1" pin="12" pinfunction="SCX" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="P0.09" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/LTC_C1A">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="C1A" pintype="input"/>
+    </net>
+    <net code="16" name="/LTC_C1B">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="C1B" pintype="input"/>
+    </net>
+    <net code="17" name="/LTC_C2A">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="C2A" pintype="input"/>
+    </net>
+    <net code="18" name="/LTC_C2B">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="C2B" pintype="input"/>
+    </net>
+    <net code="19" name="/LTC_SWA">
+      <node ref="T1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="SWA" pintype="unspecified"/>
+    </net>
+    <net code="20" name="/LTC_SWB">
+      <node ref="T2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="SWB" pintype="unspecified"/>
+    </net>
+    <net code="21" name="/LTC_VAUX">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="VS1" pintype="output"/>
+      <node ref="U1" pin="2" pinfunction="VAUX" pintype="output"/>
+      <node ref="U1" pin="20" pinfunction="VS2" pintype="output"/>
+    </net>
+    <net code="22" name="/SWDCLK">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="SWDCLK" pintype="input"/>
+    </net>
+    <net code="23" name="/SWDIO">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/VDD_Ext">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="25" name="/VDD_Gen">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VLDO" pintype="output"/>
+    </net>
+    <net code="26" name="/V_STORE">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VSTORE" pintype="output"/>
+    </net>
+    <net code="27" name="/V_STORE_DIV">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="AIN2/P0.04" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/XC1">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="XC1" pintype="input"/>
+      <node ref="X1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="29" name="/XC2">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="XC2" pintype="input"/>
+      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="30" name="/XL1">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="XL1/P0.00" pintype="bidirectional"/>
+      <node ref="X2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/XL2">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="XL2/P0.01" pintype="bidirectional"/>
+      <node ref="X2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/~{IMU_CS}">
+      <node ref="AC1" pin="10" pinfunction="CSB" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="P0.06" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="GND">
+      <node ref="AC1" pin="8" pinfunction="GNDIO" pintype="passive"/>
+      <node ref="AC1" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="T1" pin="3" pintype="passive"/>
+      <node ref="T2" pin="3" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="16" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="21" pinfunction="EPAD" pintype="unspecified"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="20" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="29" pinfunction="VSS" pintype="passive"/>
+      <node ref="U3" pin="33" pinfunction="VSS" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="T1" pin="4" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="T2" pin="4" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="38" name="Net-(L2-Pad2)">
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(Q1-D)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="VDD">
+      <node ref="AC1" pin="3" pinfunction="VDDIO" pintype="passive"/>
+      <node ref="AC1" pin="7" pinfunction="VDD" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="41" name="unconnected-(AC1-NC_1-Pad4)">
+      <node ref="AC1" pin="4" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(AC1-NC_2-Pad11)">
+      <node ref="AC1" pin="11" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J1-PadMP1)">
+      <node ref="J1" pin="MP1" pinfunction="MP1" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J1-PadMP2)">
+      <node ref="J1" pin="MP2" pinfunction="MP2" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J2-PadMP1)">
+      <node ref="J2" pin="MP1" pinfunction="MP1" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J2-PadMP2)">
+      <node ref="J2" pin="MP2" pinfunction="MP2" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-PGOOD-Pad6)">
+      <node ref="U1" pin="6" pinfunction="PGOOD" pintype="output+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-VOUT-Pad3)">
+      <node ref="U1" pin="3" pinfunction="VOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-VOUT2-Pad4)">
+      <node ref="U1" pin="4" pinfunction="VOUT2" pintype="output+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-VOUT2_EN-Pad5)">
+      <node ref="U1" pin="5" pinfunction="VOUT2_EN" pintype="output+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="2" pintype="no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U3-AIN4{slash}P0.28-Pad27)">
+      <node ref="U3" pin="27" pinfunction="AIN4/P0.28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U3-AIN6{slash}P0.30-Pad28)">
+      <node ref="U3" pin="28" pinfunction="AIN6/P0.30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U3-DEC2-Pad21)">
+      <node ref="U3" pin="21" pinfunction="DEC2" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U3-P0.16-Pad13)">
+      <node ref="U3" pin="13" pinfunction="P0.16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U3-P0.18-Pad14)">
+      <node ref="U3" pin="14" pinfunction="P0.18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U3-P0.20-Pad15)">
+      <node ref="U3" pin="15" pinfunction="P0.20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3-P0.21{slash}~{RESET}-Pad16)">
+      <node ref="U3" pin="16" pinfunction="P0.21/~{RESET}" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U3-P0.25-Pad26)">
+      <node ref="U3" pin="26" pinfunction="P0.25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U4-NC-Pad4)">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
