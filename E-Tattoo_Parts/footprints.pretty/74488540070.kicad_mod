@@ -115,6 +115,7 @@
         (width 0) (fill yes))
     ) (tstamp 6ce31283-de5b-4639-9e87-0aaace15fe4c))
   (pad "4" smd custom (at -2.5 2.5 90) (size 1.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
@@ -142,4 +143,9 @@
         )
         (width 0) (fill yes))
     ) (tstamp 9feb1113-64bd-4585-87d9-d5baf7220bc0))
+  (model "${KIPRJMOD}/E-Tattoo_Parts/parts.3dshapes/74488540070.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
