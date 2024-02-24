@@ -3044,7 +3044,7 @@
       (net 24 "/V_STORE") (pintype "passive") (tstamp d0fbdf0b-5968-4f99-b173-f562d2339b28))
     (pad "2" smd roundrect (at 2.4625 0) (size 2.075 2.35) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.120482)
       (net 7 "GND") (pintype "passive") (tstamp f3cdccc4-2e0c-4b59-a2aa-e5f63383c470))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-28_Kemet-C.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-28_Kemet-C.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
